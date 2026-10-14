@@ -51,7 +51,12 @@
  .cv-btn{width:100%;max-width:260px;margin-inline:auto}
  .side-controls{justify-content:center}
  .side-foot{width:100%}
- .contacts{width:100%;max-width:300px;margin-inline:auto;justify-items:center}
+ .contacts{display:flex;flex-wrap:nowrap;justify-content:space-between;gap:8px;width:100%;max-width:none;margin-inline:0}
+ .contacts a{white-space:nowrap}
+ .contacts li:nth-child(1){order:1}
+ .contacts li:nth-child(2){order:3}
+ .contacts li:nth-child(3){order:2}
+ .contacts li:nth-child(4){order:4}
  .content{padding-top:24px}
  .topbar{margin-bottom:28px}
  .co.first{padding-top:0}
